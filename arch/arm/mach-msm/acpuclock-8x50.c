@@ -635,7 +635,7 @@ static void __init acpu_freq_tbl_fixup(void)
 		max_acpu_khz = 998400;
 		break;
 	case 0x10:
-		max_acpu_khz = 1267200;
+		max_acpu_khz = 998400;
 		break;
 	default:
 		pr_warning("Invalid efuse data (%x) on Max ACPU freq!\n",
