@@ -1,0 +1,1 @@
+cmd_drivers/misc/reset/reset.ko := arm-linux-androideabi-ld -EL -r  -T /usr/src/dell/lhbalanced/scripts/module-common.lds --build-id -o drivers/misc/reset/reset.ko drivers/misc/reset/reset.o drivers/misc/reset/reset.mod.o

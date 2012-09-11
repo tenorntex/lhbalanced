@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/bcm4325/dhd.ko := arm-linux-androideabi-ld -EL -r  -T /usr/src/dell/lhbalanced/scripts/module-common.lds --build-id -o drivers/net/wireless/bcm4325/dhd.ko drivers/net/wireless/bcm4325/dhd.o drivers/net/wireless/bcm4325/dhd.mod.o
